@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(iphone.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size:500px;
+}
+
+
+.sider{
+    
+    margin:0 auto;
+    height: 75px;
+    width:212px;
+    margin-top: 30px;
+    background-color: #40b034;
+    
+}
+
+.upitem{
+   display: flex;
+   justify-content: space-evenly;
+   font-size: 23px;
+   padding-top: 18px;
+}
+
+.margin{
+    border-radius: 48%;
+    height: 25px;
+    text-align: center;
+    width: 30px;
+    background-color: #40b034;
+    
+}
+
+.fa-user-circle, .fa-map-marker, .fa-list-alt{
+    color: white;
+}
+
+.steps{
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-left: 8px;
+    font-weight: bolder;
+}
+
+.lines::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background:#40b034;
+    transition: width .3s;
+}
+
+.lines:hover::after{
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.top{
+    margin-left: 36px;
+    margin-top:15px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+.down{
+    margin-left: 60px;
+    font-size: 13px;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+
+
+.upart{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 12px;
+    font-size: 19px;
+}
+
+.border{
+    border-radius: 48%;
+    height: 30px;
+    width: 36px;
+    text-align: center;
+    background-color: #40b034;
+    padding-top: 7px;
+    opacity: 0.8;
+
+}
+
+.ucontent{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+    margin-left: 22px;
+    margin-top: 5px;
+}
+
+.dpart{
+    display: flex;
+    margin-top: 20px;
+    font-size: 19px;
+    
+}
+
+.align{
+    margin-left: 45px;
+    border-radius: 48%;
+    height: 30px;
+    width: 36px;
+    background-color: #40b034;
+    opacity: 0.8;
+}
+
+.fa-desktop{
+    padding-left: 8px;
+    padding-top: 7px;
+}
+
+.fa-building{
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.dcontent{
+    display: flex;
+    font-size: 10px;
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 5px;
+    
+}
+
+button{
+    margin-top: 30px;
+    margin-left: 160px;
+    width: 40px;
+    height: 22px;
+    font-size: 12px;
+    background-color: #40b034;
+    border-radius: 4px;
+    outline: none;
+   
+}
+
+.letter{
+    color: white;
+    font-family: sans-serif;
+}
+
+
+
+ul{
+   display: flex;
+}
+
+li{
+    list-style: none;
+    font-family: sans-serif;
+
+}
+
+.aps{
+    margin-left: 18px;
+    margin-top: 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    letter-spacing: 0.8;
+}
+
+.bell{
+    margin-top: 37px;
+    margin-left: 70px;
+    font-size: 16px;
+}
+
+.bar{
+    margin-left: 12px;
+    margin-top: 37px;
+    
+}
+
+.bar, a{
+    color: black;
+}
+
+
+.content{
+    
+    height: 320px;
+    width: 209px;
+    margin: 0 auto;
+    background-color: #ECF8E0;
+}
+
+
+a{
+    text-decoration: none;
+    
+}
+
+.items{
+    display: flex;
+}
+
+.items li{
+    margin-top: 20px;
+    margin-left: 4px;
+    font-size: 20px;
+}
+
+.fa-home{
+    border-radius: 48%;
+    background-color: #40b034 ;
+    height: 25px;
+    text-align: center;
+    width: 30px;
+    color: wheat;
+    
+} 
+
+.fa-recycle, .fa-thumbs-up, .fa-wrench, .fa-envelope, .fa-inbox{
+    border-radius: 48%;
+    background-color: #40b034 ;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+    width: 30px;
+    color: wheat;
+    opacity: 0.8;
+}
+
+
+.foot{
+    background-color:#40b034 ;
+    margin: 0 auto;
+    height: 48px;
+    width: 210px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+
